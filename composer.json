@@ -1,6 +1,6 @@
 
 {
-    "name": "tscms/tinymce",
+    "name": "tinymce",
     "description": "Tiny MCE for Kohana with file manager",
     "homepage": "https://github.com/tscms/tinymce",
     "keywords": ["kohana","tinymce"],
@@ -10,7 +10,7 @@
         "php": ">=5.4"
     },
     "autoload": {
-        "psr-4": {
+        "psr-0": {
             "tscms\\tinymce\\": ""
         }
     }
